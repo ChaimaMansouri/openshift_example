@@ -7,6 +7,7 @@ pipeline {
         stage ('Install_Requirements') {
             steps {
                 sh """
+                    sudo dnf install python3-pip
                     pip3 install --user -r requirements.txt
 
                 """

@@ -1,20 +1,6 @@
 pipeline {
-  agent {
-    kubernetes {
-      label 'mypod'
-      defaultContainer 'jnlp'
-      yaml """
-        apiVersion: v1
-        kind: Pod
-        spec:
-          containers:
-          - name: python
-            image: python:3.7-alpine3.8
-            command:
-            - cat
-            tty: true
-       """
-    }
+ agent {
+      label "docker"
   }
 
 

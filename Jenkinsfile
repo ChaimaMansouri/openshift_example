@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    environment {
-        VIRTUAL_ENV = "${env.WORKSPACE}/venv"
-    }
+
 
     stages {
 
@@ -10,12 +8,11 @@ pipeline {
         stage ('Install_Requirements') {
             steps {
                 sh """
-                    [ -d venv ] && rm -rf venv
+
                     #virtualenv
                     python3 -m venv
-                    #. venv/bin/activate
-                    export PATH=${VIRTUAL_ENV}/bin:${PATH}
-                    pip3 install --upgrade pip
+                    cd venv/bin
+                    source env/bin/activate
                     pip3 install -r requirements.txt
 
                 """
@@ -28,7 +25,7 @@ pipeline {
             steps {
                 sh """
                     #. venv/bin/activate
-                    export PATH=${VIRTUAL_ENV}/bin:${PATH}
+                    python3 manage.py runserver
                   
                 """
             }

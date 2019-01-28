@@ -1,5 +1,5 @@
 pipeline {
-    agent {docker {image 'python:3.7-alpine3.8'}}
+    agent { docker { image 'python:3.5.1' } }
     environment {
         VIRTUAL_ENV = "${env.WORKSPACE}/venv"
     }

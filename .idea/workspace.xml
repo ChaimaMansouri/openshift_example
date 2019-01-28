@@ -1,173 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64740320-fae3-46b9-b011-57a5d9763edd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/components.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/admin.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/admin.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/admin.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/etcd.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/etcd.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/frontproxy-ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/frontproxy-ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/frontproxy-ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.etcd-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.etcd-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.kubelet-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.kubelet-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.proxy-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.proxy-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/master.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/openshift-aggregator.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/openshift-aggregator.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/openshift-master.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/openshift-master.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/openshift-master.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/router.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/router.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/router.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/service-signer.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/service-signer.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/serviceaccounts.private.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kube-apiserver/serviceaccounts.public.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/master-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/master-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/node-client-ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/node-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/node-registration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/node.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/resolv.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/kubedns/server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/centos-imagestreams-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/centos-imagestreams-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-kubelet-flags-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-kubelet-flags-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-master-config-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-master-config-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-node-config-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/create-node-config-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/install-router-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/install-router-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/kube-dns-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/kube-dns-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/kube-proxy-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/kube-proxy-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-apiserver-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-apiserver-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-controller-manager-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-controller-manager-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-image-registry-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-image-registry-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-service-cert-signer-operator-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-service-cert-signer-operator-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-web-console-operator-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/openshift-web-console-operator-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-cakephp quickstart-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-cakephp quickstart-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-dancer quickstart-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-dancer quickstart-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-django quickstart-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-django quickstart-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-jenkins pipeline ephemeral-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-jenkins pipeline ephemeral-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mariadb-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mariadb-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mongodb-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mongodb-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mysql-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-mysql-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-nodejs quickstart-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-nodejs quickstart-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-postgresql-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-postgresql-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-rails quickstart-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-rails quickstart-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-sample pipeline-001.stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/logs/sample-templates-sample pipeline-001.stdout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/master-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/master-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/node-client-ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/node-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/node-registration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/node.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/node/server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/admin.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/admin.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/admin.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/etcd.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/etcd.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/frontproxy-ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/frontproxy-ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/frontproxy-ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.etcd-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.etcd-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.kubelet-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.kubelet-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.proxy-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.proxy-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/master.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/openshift-aggregator.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/openshift-aggregator.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/openshift-master.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/openshift-master.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/openshift-master.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/service-signer.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/service-signer.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/serviceaccounts.private.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-apiserver/serviceaccounts.public.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/admin.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/admin.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/admin.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/ca-bundle.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/etcd.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/etcd.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/frontproxy-ca.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/frontproxy-ca.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/frontproxy-ca.serial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master-config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.etcd-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.etcd-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.kubelet-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.kubelet-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.proxy-client.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.proxy-client.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.server.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/master.server.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/openshift-aggregator.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/openshift-aggregator.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/openshift-master.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/openshift-master.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/openshift-master.kubeconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/service-signer.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/service-signer.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/serviceaccounts.private.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift-controller-manager/serviceaccounts.public.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/openshift.local.volumes/cpu_manager_state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/static-pod-manifests/apiserver.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/static-pod-manifests/etcd.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/static-pod-manifests/kube-controller-manager.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openshift.local.clusterup/static-pod-manifests/kube-scheduler.yaml" beforeDir="false" />
-    </list>
+    <list default="true" id="64740320-fae3-46b9-b011-57a5d9763edd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +12,22 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,6 +65,7 @@
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/requirement" />
         <option value="$PROJECT_DIR$/dockerfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -233,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,12 +95,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -305,16 +156,17 @@
       <workItem from="1548348076772" duration="326000" />
       <workItem from="1548403792136" duration="11370000" />
       <workItem from="1548415977503" duration="2667000" />
+      <workItem from="1548662384800" duration="441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14692000" />
+    <option name="totallyTimeSpent" value="15133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1413" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25838658" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2611821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,7 +180,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039935" side_tool="true" weight="0.32990506" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960065" visible="true" weight="0.33519107" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960065" visible="true" weight="0.33678344" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -430,6 +282,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

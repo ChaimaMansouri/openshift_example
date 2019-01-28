@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64740320-fae3-46b9-b011-57a5d9763edd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -175,15 +175,16 @@
       <workItem from="1548415977503" duration="2667000" />
       <workItem from="1548662384800" duration="441000" />
       <workItem from="1548663147581" duration="1429000" />
-      <workItem from="1548665376101" duration="11529000" />
+      <workItem from="1548665376101" duration="12651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28091000" />
+    <option name="totallyTimeSpent" value="29213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1413" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26677316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +316,7 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

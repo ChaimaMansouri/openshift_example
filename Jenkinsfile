@@ -10,9 +10,9 @@ pipeline {
                 sh """
 
                     #virtualenv
-                    python3 -m venv
+                    python3 -m venv /home/chaimamansouri/jenkins_openshift/venv
                     cd venv/bin
-                    source env/bin/activate
+                    source venv/bin/activate
                     pip3 install -r requirements.txt
 
                 """

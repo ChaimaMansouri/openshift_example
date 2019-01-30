@@ -14,16 +14,5 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
-        stage('Run the app')
-        {
-            container('python') {
-                stage('Run app') {
-                    sh '''
-                     python3 manage.py runserver &
-                    '''
-                }
-            }
-        }
-
     }
 }

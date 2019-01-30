@@ -12,11 +12,6 @@ podTemplate(label: label,cloud:'openshift', containers: [
                      pip3 install --user -r requirements.txt
                     '''
                 }
-                stage('Build a python project') {
-                    sh '''
-                     python3 manage.py runserver
-                    '''
-                }
             }
         }
 

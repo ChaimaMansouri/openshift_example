@@ -8,7 +8,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
             container('python') {
                 stage('Build a python project') {
                     sh '''
-                     pip3 install -r requirements.txt
+                     pip3 install --user -r requirements.txt
                     '''
                 }
                 stage('Build a python project') {

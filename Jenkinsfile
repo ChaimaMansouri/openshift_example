@@ -5,6 +5,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
 
     node(label) {
             stage('test python container') {
+            git 'https://github.com/ChaimaMansouri/openshift_example'
             container('python') {
                 stage('Build a python project') {
                     sh '''

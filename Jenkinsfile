@@ -19,7 +19,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
             container('python') {
                 stage('Run app') {
                     sh '''
-                     python3 manage.py runserver
+                     python3 manage.py runserver &
                     '''
                 }
             }

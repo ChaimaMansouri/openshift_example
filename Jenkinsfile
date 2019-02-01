@@ -4,20 +4,15 @@ podTemplate(label: label,cloud:'openshift', containers: [
   ]) {
 
     node(label) {
-            stage('test python container') {
+            stage('Get Django project') {
+            git 'https://github.com/ChaimaMansouri/openshift_example'
             container('python') {
-                stage('Build a python project') {
+                stage('Install requirements') {
                     sh '''
-                     pip3 install -r requirements.txt
-                    '''
-                }
-                stage('Build a python project') {
-                    sh '''
-                     python3 manage.py runserver
+                     pip3 install --user -r requirements.txt
                     '''
                 }
             }
         }
-
     }
 }

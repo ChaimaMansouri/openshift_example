@@ -1,0 +1,9 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "simple-django-app"
+spec:
+  strategy:
+    jenkinsPipelineStrategy:
+    type: JenkinsPipeline
+

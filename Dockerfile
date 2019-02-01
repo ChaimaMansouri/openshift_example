@@ -8,4 +8,3 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
 EXPOSE 8000:8000
-RUN python manage.py runserver

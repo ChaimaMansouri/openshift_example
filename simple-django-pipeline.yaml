@@ -1,10 +1,16 @@
+# the spec.source.git is necessary"
 kind: "BuildConfig"
 apiVersion: "v1"
 metadata:
   name: "simple-django-app"
 spec:
+  source:
+    git:
+     uri: https://github.com/ChaimaMansouri/openshift_example
+    type: Git
   strategy:
+    type: JenkinsPipeline
     jenkinsPipelineStrategy:
       jenkinsfilePath: Jenkinsfile
-    type: JenkinsPipeline
+  type: JenkinsPipeline
 

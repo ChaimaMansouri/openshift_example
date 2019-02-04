@@ -15,6 +15,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
     stage('create') {
+    container('python') {
         script {
             openshift.withCluster() {
                 openshift.withProject() {
@@ -23,7 +24,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
     }
-
+}
 
 }
 }

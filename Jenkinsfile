@@ -38,3 +38,4 @@ podTemplate(label: label,cloud:'openshift', containers: [
 
 
 }
+}

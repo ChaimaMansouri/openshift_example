@@ -20,7 +20,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
             openshift.withCluster() {
                 openshift.withProject() {
                 echo "Unable to con"
-                  #openshift.newApp('registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/ChaimaMansouri/openshift_example','--strategy=source')
+                  //openshift.newApp('registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/ChaimaMansouri/openshift_example','--strategy=source')
 
                 }
             }

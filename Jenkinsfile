@@ -4,8 +4,18 @@ podTemplate(label: label,cloud:'openshift', containers: [
   ]) {
 
     node(label) {
+        stage('preamble') {
+            steps {
+                script {
+                    openshift.withCluster() {
+                        openshift.withProject() {
+                            echo "Using project: ${openshift.project()}"
+                        }
+                    }
+                }
+            }
+        }
             stage('Get Django project') {
-            git 'https://github.com/ChaimaMansouri/openshift_example'
             container('python') {
                 stage('Install requirements') {
                     sh '''
@@ -14,5 +24,17 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
+    stage('create') {
+      steps {
+        script {
+            openshift.withCluster() {
+                openshift.withProject() {
+                  openshift.newApp('https://github.com/ChaimaMansouri/openshift_example')
+                }
+            }
+        }
+      }
     }
+
+
 }

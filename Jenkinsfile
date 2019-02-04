@@ -19,7 +19,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
         script {
             openshift.withCluster() {
                 openshift.withProject() {
-                  openshift.newApp('https://github.com/ChaimaMansouri/openshift_example')
+                  openshift.newApp('registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/ChaimaMansouri/openshift_example')
                 }
             }
         }

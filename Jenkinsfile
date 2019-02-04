@@ -4,15 +4,6 @@ podTemplate(label: label,cloud:'openshift', containers: [
   ]) {
 
     node(label) {
-        stage('preamble') {
-                script {
-                    openshift.withCluster() {
-                        openshift.withProject() {
-                            echo "Using project: ${openshift.project()}"
-                        }
-                    }
-                }
-        }
             stage('Get Django project') {
             container('python') {
                 stage('Install requirements') {

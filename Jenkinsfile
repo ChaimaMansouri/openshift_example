@@ -14,6 +14,11 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
+
+
+}
+
+
   stage('create') {
 
         script {
@@ -26,7 +31,4 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
     }
-}
-
-}
 }

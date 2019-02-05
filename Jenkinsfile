@@ -14,7 +14,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
-/*    stage('create') {
+  stage('create') {
 
         script {
         withEnv(["POSTGRESQL_USER=user","POSTGRESQL_DATABASE=db","POSTGRESQL_PASSWORD=password"]) {
@@ -27,6 +27,6 @@ podTemplate(label: label,cloud:'openshift', containers: [
         }
     }
 }
-*/
+
 }
 }

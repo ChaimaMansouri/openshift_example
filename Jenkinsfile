@@ -13,7 +13,8 @@ podTemplate(label: label,cloud:'openshift', containers: [
                     '''
                 }
             }
-        }
+        }}
+    node(){
     stage('create') {
         withEnv(["POSTGRESQL_USER=user","POSTGRESQL_DATABASE=db","POSTGRESQL_PASSWORD=password"]) {
             openshift.withCluster() {
@@ -23,7 +24,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
-}
+
 
 }
-}
+}}

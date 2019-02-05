@@ -17,7 +17,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
 
 
 }
-
+}
 
   stage('create') {
 

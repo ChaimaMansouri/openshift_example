@@ -6,7 +6,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
     node(label) {
             stage('Get Django project') {
             container('python') {
-            git 'https://github.com/chaima-mnsr/openshift_example'
+            git 'git@github.com:chaima-mnsr/openshift_example.git'
                 stage('Install requirements') {
                     sh '''
                      pip3 install --user -r requirements.txt

@@ -25,7 +25,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
         withEnv(['POSTGRESQL_USER=postgres','POSTGRESQL_DATABASE=conversations','POSTGRESQL_PASSWORD=postgres']) {
             openshift.withCluster() {
                 openshift.withProject() {
-                    openshift.newApp('openshift/postgresql-92-centos7','--env POSTGRESQL_USER=postgres','-e POSTGRESQL_DATABASE=conversations,'-e POSTGRESQL_PASSWORD=postgres')
+                    openshift.newApp('openshift/postgresql-92-centos7','--env POSTGRESQL_USER=postgres','-e POSTGRESQL_DATABASE=conversations','-e POSTGRESQL_PASSWORD=postgres')
 
                 }
             }

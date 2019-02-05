@@ -33,7 +33,7 @@ podTemplate(label: label,cloud:'openshift', containers: [
 }
 
     stage('create app pod') {
-      steps {
+
         script {
             openshift.withCluster() {
                 openshift.withProject() {
@@ -41,5 +41,5 @@ podTemplate(label: label,cloud:'openshift', containers: [
                 }
             }
         }
-      }
+
     }

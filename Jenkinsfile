@@ -1,6 +1,9 @@
 def label = "mypod-${UUID.randomUUID().toString()}"
 podTemplate(label: label,cloud:'openshift', containers: [
     containerTemplate(name: 'python', image: 'python:3.7-alpine3.8', ttyEnabled: true, command: 'cat'),
+    containerTemplate(name: 'postgres', image: 'postgres:9.6', ttyEnabled: true, command: 'cat'),
+    containerTemplate(name: 'rabbitmq', image: 'rabbitmq:3-management', ttyEnabled: true, command: 'cat'),
+    containerTemplate(name: 'redis', image: 'redis:4-alpine', ttyEnabled: true, command: 'cat'),
   ]) {
 
     node(label) {
@@ -15,31 +18,18 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
 
-
-}
-}
-
-  stage('create postgres pod') {
-
-        script {
-            openshift.withCluster() {
-                openshift.withProject() {
-                    openshift.newApp('openshift/postgresql-92-centos7','-e POSTGRESQL_USER=postgres','-e POSTGRESQL_DATABASE=conversations','-e POSTGRESQL_PASSWORD=postgres')
-
-                }
-            }
-
-    }
-}
-
-    stage('create app pod') {
-
-        script {
-            openshift.withCluster() {
-                openshift.withProject() {
-                  openshift.newApp('registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/chaima-mnsr/openshift_example','--strategy=source')
+         stage('Get Django project') {
+            container('postgres') {
+                stage('Set env variables for postgres') {
+                    sh '''
+                     POSTGRESQL_USER=user
+                     POSTGRESQL_DATABASE=db
+                     POSTGRESQL_PASSWORD=password
+                    '''
                 }
             }
         }
 
-    }
+
+}
+}

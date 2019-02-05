@@ -15,14 +15,15 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
     stage('create') {
-        container('python') {
-                    stage('create new app') {
-                    sh '''
-                     oc new-app registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/chaima-mnsr/openshift_example --strategy=source
-                    '''
+        withEnv(["POSTGRESQL_USER=user","POSTGRESQL_DATABASE=db","POSTGRESQL_PASSWORD=password"]) {
+            openshift.withCluster() {
+                openshift.withProject() {
+                    openshift.newApp('openshift/postgresql-92-centos7')
+
                 }
-                }
-}
+            }
+        }
 }
 
+}
 }

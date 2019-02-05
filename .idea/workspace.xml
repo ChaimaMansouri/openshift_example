@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/simple-django-pipeline.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -199,7 +199,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73431000" />
+    <option name="totallyTimeSpent" value="73700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1413" extended-state="6" />
@@ -341,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/simple-django-pipeline.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 def label = "mypod-${UUID.randomUUID().toString()}"
 podTemplate(label: label,cloud:'openshift', containers: [
-    containerTemplate(name: 'python', image: 'python-35-rhel7', ttyEnabled: true, command: 'cat'),
+    containerTemplate(name: 'python', image: 'python:3.7.8', ttyEnabled: true, command: 'cat'),
   ]) {
 
     node(label) {
@@ -13,9 +13,10 @@ podTemplate(label: label,cloud:'openshift', containers: [
                     '''
                 }
             }
-        }}}
-pipeline{
+        }
     stage('create') {
+
+        script {
         withEnv(["POSTGRESQL_USER=user","POSTGRESQL_DATABASE=db","POSTGRESQL_PASSWORD=password"]) {
             openshift.withCluster() {
                 openshift.withProject() {
@@ -24,7 +25,8 @@ pipeline{
                 }
             }
         }
-
+    }
+}
 
 }
 }

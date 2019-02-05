@@ -18,17 +18,6 @@ podTemplate(label: label,cloud:'openshift', containers: [
 
 }
 }
-  stage('cleanup') {
-      steps {
-        script {
-            openshift.withCluster() {
-                openshift.withProject() {
-                  openshift.selector("all","postgresql-92-centos7").delete()
-                }
-            }
-        }
-      }
-    }
 
   stage('create postgres pod') {
 

@@ -15,18 +15,13 @@ podTemplate(label: label,cloud:'openshift', containers: [
             }
         }
     stage('create') {
-
-        script {
-        withEnv(["POSTGRESQL_USER=user","POSTGRESQL_DATABASE=db","POSTGRESQL_PASSWORD=password"]) {
-            openshift.withCluster() {
-                openshift.withProject() {
-                    def created = openshift.newApp( 'https://github.com/openshift/ruby-hello-world' )
-                    echo "new-app created ${created.count()} objects named: ${created.names()}"
-                    created.describe()
+    container('python') {
+                    stage('create new app') {
+                    sh '''
+                     oc new-app registry.access.redhat.com/rhscl/python-35-rhel7~https://github.com/chaima-mnsr/openshift_example --strategy=source
+                    '''
                 }
-            }
-        }
-    }
+}
 }
 
 }
